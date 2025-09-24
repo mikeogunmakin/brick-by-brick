@@ -11,7 +11,7 @@ This repo is my personal knowledge base for:
 
 ## 📂 Structure
 The repo is organised into topic-based folders (bricks), such as:
-- **Problem Scoping** – maths, statistics, Python essentials  
+- **Problem Scoping** – planning and scoping projects
 - **Machine Learning** – models, evaluation, feature engineering  
 - **Deep Learning** – neural networks, transformers, embeddings  
 - **Data Engineering** – pipelines, SQL, cloud, tools  
