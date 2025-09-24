@@ -8,7 +8,6 @@ because of updates to the business problem you’re solving, new research direct
 updates elsewhere in the codebase.
 
 ---
-
 ## Why Good Code Matters
 
 Good code is especially important when your data science code integrates with a larger
@@ -25,7 +24,6 @@ for another purpose. I encourage you to take the time to go back to your code af
 urgency has passed and tidy it up for future use.
 
 ---
-
 ## Technical Debt
 
 **Technical debt** (often abbreviated as **tech debt**) is a commonly used term for deferred work resulting from
@@ -39,7 +37,6 @@ That said, tech debt is often necessary because of
 business deadlines and budgets. You don’t always have time to polish your code.
 
 ---
-
 ## How to Adapt to Changing Requirements
 
 Writing code is not like building a bridge, where the design is thoroughly worked out, the
@@ -104,6 +101,28 @@ extra lines.
 
 ------------
 ## Modularity
+
+Writing modular code is the art of breaking a big system into smaller components. Modular
+code has several important advantages: it makes the code easier to read, it’s easier to
+locate where a problem comes from, and it’s easier to reuse code in your next project. It’s
+also easier to test code that is broken into smaller components.
+
+You could just write one big script to do the whole thing, and this might be fine at the start of a small project. But larger projects need to be broken into smaller pieces. To do this, you’ll need to think as far ahead into the future of the project as possible and try to anticipate what the overall system will do and what might be sensible places to divide it up.
+
+Writing modular code is an ongoing process, and it’s not something you’ll get completely
+correct from the beginning, even if you have the best intentions. You should expect to
+change your code as your project evolves.
+
+---
+## Readability
+
+Readable code ensures long-term usability for both you and others. Following conventions, using clear names, removing unused code, and documenting early makes code simpler, less complex, and easier to maintain.
+
+if you pay attention to making your code readable at the time of writing it, you will write code that is less complex and easier to maintain.
+
+---
+## Standards and Conventions
+
 
 
 
