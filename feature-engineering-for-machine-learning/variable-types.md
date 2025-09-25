@@ -198,6 +198,51 @@
 - Preprocessing is essential to **unlock richer insights**.  
 
 
+---
+
+# Mixed Variables
+
+## 🔹 Definition
+- **Mixed variables**: Variables that contain **both numbers and categories** among their values.  
+- Two main types:
+  1. Variables with **either numbers OR labels** across observations.  
+  2. Variables with **both strings and numbers together** in the same observation.  
+
+---
+
+## 🔹 Type 1: Numbers or Labels (per observation)
+- Examples (financial variables):
+  - **Number of credit accounts** → Values like `1–100`, or codes for missing data (`Unknown`, `Not verified`, `No match`).  
+  - **Number of missed payments** → Values:
+    - `1, 2, 3` → Missed payments count  
+    - `D` → Defaulted  
+    - `A` → Arrangements with lender  
+
+---
+
+## 🔹 Type 2: Strings + Numbers (in same observation)
+- Examples:
+  - **Cabin** (Titanic dataset) → e.g., `C123`  
+  - **Ticket** (Titanic dataset) → mix of numbers and letters  
+  - **Vehicle registration** → e.g., `AB12 XYZ`  
+  - **Postcode** → e.g., `SW1A 1AA`  
+
+---
+
+## 🔹 Why They Matter
+- Mixed variables can be **enriched** by separating their:
+  - **String components** (e.g., cabin letter, postcode area)  
+  - **Numeric components** (e.g., ticket number, postcode digits)  
+- Provide additional features for **analysis and modelling**.  
+
+---
+
+## 🔹 Key Takeaways
+- Mixed variables combine numeric and categorical elements.  
+- Can appear either as:
+  - **Alternative values** (numbers or labels), or  
+  - **Combined values** (letters + numbers).  
+- Careful **preprocessing and feature extraction** unlocks valuable insights.   
 
 
 
