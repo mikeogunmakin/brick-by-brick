@@ -123,6 +123,83 @@ if you pay attention to making your code readable at the time of writing it, you
 ---
 ## Standards and Conventions
 
+Coding standards have been developed to encourage consistency across everyone writing
+Python code, and the aim is to make code feel familiar even when someone else has written
+it.  This helps reduce the amount of effort it takes to read and edit code that you haven’t
+written yourself.
+
+Python is inherently very readable compared to many programming languages; sticking to a
+coding standard will make it even easier to read. The main coding standard for Python is
+PEP8 (Python Enhancement Proposal 8), established in 2001.
+
+
+
+Linters such as Flake8 and Pylint highlight places where your code doesn’t conform with PEP8. Automatic formatters such as Black will update your code automatically to conform with coding standards. A linter is a tool that automatically checks your code for mistakes, inconsistencies, or style issues.
+
+---
+## Names
+
+When writing code for data science, you’ll need to choose names at many points: names of
+functions, variables, projects and even whole tools. Your choice of names affects how easy it
+is to work on your code. If you choose names that are not descriptive or precise, you’ll need
+to keep their true meaning in your head, which will increase your code’s cognitive load.
+
+--
+## Cleaning up
+After testing your code, clean it by removing commented-out sections and unnecessary print() statements, as these make code confusing and lower project standards. Untidy code signals that poor quality is acceptable and may spread bad practices, a concept known as the Broken Window Theory.
+
+To improve quality, you can refactor your code. Refactoring means restructuring it to be more efficient or reusable without changing its overall behaviour. Tests are essential in this process to confirm the code still works as intended.
+
+---
+## Documentation
+Documentation makes code easier to understand and use, both for others and for your future self. It can range from inline comments and function docstrings to README files and full tutorials. Good documentation encourages others to use your code, but it must also be kept up to date—outdated documentation is worse than none, as it creates confusion and wastes time.
+
+---
+## Performance
+Good code should be performant in both speed and memory usage. Choosing efficient data structures and algorithms helps avoid unnecessary slowdowns, and it’s important to identify which parts of code take the most time. Performance matters most in production, where code may run millions of times daily—small optimisations can save significant time and prevent your code from becoming a bottleneck in larger applications.
+
+---
+## Robustness
+Good code should be robust, meaning it runs reliably from start to finish and handles unexpected inputs gracefully. Robustness is achieved through proper error handling, clear logging, and thorough testing to prevent failures and ensure reproducibility.
+
+---
+## Error and Logging
+Robust code should behave predictably when given incorrect input. As a developer, you need to make an explicit decision on how your code should respond—either crash and raise an error, handle the issue gracefully with a clear alert or warning, or fail silently and continue execution. For example, if a CSV file loads with only half the expected rows, you must decide whether the program should stop with an error, process the available data with a warning, or proceed without notice. The key is to consciously choose a strategy for error handling rather than leaving behaviour undefined. If the error is handled, it can still be important to record that it has happened so that it doesn’t fail silently, if that’s not what you want to happen. This is one use case for logging.
+
+---
+## Testing
+
+Testing is essential for writing robust and reliable code. There are two main types of testing: user testing, where a person manually interacts with the software to check if it behaves correctly, and automated testing, where code is used to verify expected behaviour.
+
+Tests are important because code that works perfectly on one machine may fail on another, or even on the same machine in the future. This can happen due to changes in data, updates to libraries, or differences in Python versions across environments. Automated tests ensure that others can verify your code works correctly on their systems.
+
+There are different kinds of automated tests. Unit tests focus on a single function, integration tests cover a group of functions working together, and end-to-end tests validate an entire project workflow. A practical approach to introducing testing in a large codebase with no existing tests is to add a test whenever something breaks, ensuring that the same error cannot occur again.
+
+---
+## Key Takeaways
+
+Writing good code has several benefits. It makes your code easier for others to use, helps you quickly understand your own work when revisiting it after a long time, and allows your code to scale and integrate with larger systems. Well-written code also simplifies the process of adding new features that were not part of the original plan.
+
+In summary, here are some ways to think about how to write good code:
+
+_Simplicity:_
+Your code should avoid repetition, unnecessary complexity, and unneeded lines of code.
+
+_Modularity:_
+Your code should be broken down into logical functions, with well-defined inputs and
+outputs.
+
+_Readability:_
+Your code should follow the PEP8 standard for formatting, contain well-chosen names,
+and be well documented.
+
+_Performance:_
+Your code should not take an unnecessarily long time to run or use up more resources
+than are available.
+
+_Robustness:_
+Your code should be reproducible, raise useful error messages, and handle unexpected
+inputs without failing
 
 
 
