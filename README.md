@@ -1,6 +1,6 @@
-# 🧱 Brick by Brick
+# Journey to becoming a Renessanice Data Science (j2rds)
 
-A living repository of my journey in data science — built brick by brick.  
+A living repository of my journey in data science 
 Each folder or note represents a small step forward: skills stacked, concepts clarified, and experiments run.  
 
 ## 🎯 Purpose
@@ -10,13 +10,12 @@ This repo is my personal knowledge base for:
 - Tracking progress and growth over time  
 
 ## 📂 Structure
-The repo is organised into topic-based folders (bricks), such as:
+The repo is organised into topic-based folders, such as:
 - **Problem Scoping** – planning and scoping projects
 - **Machine Learning** – models, evaluation, feature engineering  
 - **Deep Learning** – neural networks, transformers, embeddings  
 - **Data Engineering** – pipelines, SQL, cloud, tools  
 - **Projects** – experiments, case studies, applications  
-- **Readings** – papers, articles, books with key takeaways  
 
 ## 🚀 Guiding Principles
 - **Consistency > Intensity** → Small daily/weekly notes compound over time  
@@ -27,5 +26,3 @@ The repo is organised into topic-based folders (bricks), such as:
 This repo is inspired by the idea that growth happens incrementally.  
 Like laying bricks, each skill or concept adds up to something bigger.  
 
----
-💡 *Brick by brick, I’m building towards mastery in data science.*
