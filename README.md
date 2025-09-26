@@ -1,7 +1,6 @@
 # Journey to becoming a Renaissance Data Scientist (j2rds)
 
-A living repository of my journey in data science 
-Each folder or note represents a small step forward: skills stacked, concepts clarified, and experiments run.  
+A living repository of my journey in data science. Each folder or note represents a small step forward: skills stacked, concepts clarified, and experiments run.  
 
 ## 🎯 Purpose
 This repo is my personal knowledge base for:
